@@ -5,6 +5,7 @@ from PyQt5.QtWidgets import (
 from PyQt5.QtGui import QMovie
 from PyQt5.QtCore import Qt, QTimer
 import os
+from utils.text import normalize_text
 
 class DebugConsole(QMainWindow):
     def __init__(self):
@@ -100,7 +101,7 @@ class MainWindow(QWidget):
         self.stacked_layout.setCurrentWidget(self.info_panel)
 
     def on_submit(self):
-        user_input = self.input_box.toPlainText().strip()
+        user_input = normalize_text(self.input_box.toPlainText())
         if user_input:
             if self.debug_console:
                 self.debug_console.append_log(f"User: {user_input}")
