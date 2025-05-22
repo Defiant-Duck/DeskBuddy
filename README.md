@@ -100,4 +100,3 @@ MIT License. See [LICENSE](LICENSE) for details.
 ## ⚙️ Related Projects
 
 * [Sophia](https://github.com/c-daly/Sophia): Reasoning and memory-equipped agent that DeskBuddy can render
-* [LangGraph](https://github.com/langchain-ai/langgraph): Useful for future dynamic agent planning
