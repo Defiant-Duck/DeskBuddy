@@ -66,23 +66,6 @@ DeskBuddyRenderer (PyQt, React, etc.)
 
 * Python 3.9+
 * PyQt5 (for default Dash or desktop renderers)
-* Optionally: TTS (e.g. pyttsx3 or ElevenLabs), Flask for web endpoint
-
-### Install
-
-```bash
-git clone https://github.com/Defiant-Duck/DeskBuddy.git
-cd DeskBuddy
-pip install -r requirements.txt
-```
-
-### Run with Example Renderer
-
-```bash
-python main.py  # Coming soon
-```
-
----
 
 ## 🎓 Philosophy
 
